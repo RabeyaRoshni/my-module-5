@@ -53,6 +53,10 @@ nav li a{
     color: #FD6E0A;
 }
 
+.secondary-background{
+    background-color: #FFF8F3;
+}
+
 
 /* button style  */
 .btn{
@@ -61,13 +65,13 @@ nav li a{
     font-size: 20px;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     
 }
 
 .btn:hover{
-    background-color: rgb(231, 8, 8);
+    background-color: rgb(248, 45, 5);
 }
 
 /* banner design  */
@@ -96,3 +100,169 @@ nav li a{
 .banner-pp{
     width: 580px;
 }
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.about-box{
+    border: 0.5px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+.section-title{
+    font-size: 35px;
+    color: black;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-name{
+    color: #757575;
+    font-size: 15px;
+}
+
+.item-description{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* what i do box  */
+
+.skills{
+    margin-top: 130px;
+    padding: 30px;
+}
+/* .skills p{
+    
+    padding: 50px;
+} */
+
+.skill-item{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    border: 1px solid white;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 5px  rgb(185, 223, 236) ; */
+    box-shadow: 0 4px 8px 0 rgba(139, 132, 132, 0.2), 0 6px 20px 0 rgba(145, 140, 140, 0.19);
+
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+.skill-title{
+    font-size: 22px;
+}
+
+.skill-description{
+    font-size: 17px;
+    
+    color: #757575;
+}
+
+.first{
+    padding: 0px 80px;
+}
+
+
+/* resue part  */
+
+.resume-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* flex-direction: column; */
+}
+
+.experience{
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(139, 132, 132, 0.2), 0 6px 20px 0 rgba(145, 140, 140, 0.19);
+
+}
+
+.experience h5{
+
+    font-size: 20px;
+
+}
+
+.experience h6{
+    font-size: 15px;
+    color: #757575;
+    padding: 0px 40px;
+}
+
+.resume-column-title{
+    font-size: 25px;
+    color: cadetblue;
+}
+
+.resume{
+    margin-top: 130px;
+}
+
+.btn{
+    margin-top: 50px;
+    
+}
+
+footer{
+    padding: 130px  230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+
+}
+
+footer input[type="text"] , footer input[type="email"] , footer textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+/* footer input[type="email"]{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+} */
+
